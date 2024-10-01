@@ -228,9 +228,9 @@ User = ""
 password = ""
 
 mount_point="/mnt/customer_data"
-source="wasbs://customerdata@cusstomerstorage.blob.core.windows.net/"
-key = "KYAmad6GFdPO6nvUJnWEbu28FRZ1zbK3FtSTyrgzwAjWPyBS5Y8w0G9UfAKQhz8zTHoBD9cznUwD+AStYgwj9Q=="
-extra_configs = {"fs.azure.account.key.cusstomerstorage.blob.core.windows.net": key}
+source=""
+key = ""
+extra_configs = {"": key}
 
 def main(log_content_path,log_search_path,path_of_mapping_file,log_content_start_date,log_content_end_date,log_search_start_date,log_search_end_date,driver,database_host,database_port,database_name,table,User,password,mount_point,source,extra_configs):
     print('Mounting into storage account')
