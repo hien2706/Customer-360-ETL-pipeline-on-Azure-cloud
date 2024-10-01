@@ -2,6 +2,8 @@
 # Overview
 The pipeline extracts raw data from Blob Storage, transforms it using PySpark on Databricks, loads it into SQL Database, and visualizes the results in Power BI. Azure Data Factory automates the entire process.
 
+![ETL_pipeline_Azure_Cloud](https://github.com/hien2706/Customer-360-ETL-pipeline-on-Azure-cloud/blob/main/images/ETL_pipeline.jpg)
+
 Technologies used:
 - PySpark
 - Azure Databricks
